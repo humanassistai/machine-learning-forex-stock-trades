@@ -2,6 +2,8 @@ The first thing we need to do is go ahead and plot this data out to see what we'
 
 It's a good idea to get comfortable with visualizing data in Python.
 
+![Visualisation part-1](https://raw.githubusercontent.com/humanassistai/machine-learning-forex-stock-trades/master/images/data_vis.png)
+
 ## visualization part-1
 ```python
 import matplotlib
@@ -30,6 +32,7 @@ def graphRawFX():
 graphRawFX()
 
 ```
+![Visualisation part-2](https://raw.githubusercontent.com/humanassistai/machine-learning-forex-stock-trades/master/images/data-visualisation-2.png)
 ## visualization part-2
 ```python
 import matplotlib
