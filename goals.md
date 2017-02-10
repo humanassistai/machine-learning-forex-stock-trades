@@ -1,5 +1,5 @@
-
-Machine Classification.
+##Goals
+##Machine Classification.
 
 With quant analysis, generally the first few things you are taught are "patterns" Head and shoulders, teacup, and whatever else.
 
