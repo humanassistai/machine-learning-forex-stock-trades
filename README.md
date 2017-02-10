@@ -1,1 +1,1 @@
-# machine-learning-forex-stock
+# Machine Learning and Pattern Recogition for Forex and Stock Tranding
