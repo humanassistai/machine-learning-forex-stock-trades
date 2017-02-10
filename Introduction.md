@@ -14,3 +14,21 @@ Pip is probably the easiest way to install packages Once you install Python, you
 * `pip install numpy`
 * `pip install matplotlib`
 
+In order to get the Matplotlib, you should first head to Matplotlib.org and download the version that matches your version of Python.
+Once you have Matplotlib installed, be sure to open up a terminal or a script, type:
+
+`#Importing pyplot
+from matplotlib import pyplot as plt
+
+#Plotting to our canvas
+plt.plot([1,2,3],[4,5,1])
+
+#Showing what we plotted
+plt.show()`
+Thi is a basic code to generating one of the most simple graphs that we can, it will take us only 3 lines.
+
+Now let's go with our forex dataset .
+* [Forex Data Set ](https://pythonprogramming.net/static/downloads/forex-hft-pattern-recognition/GBPUSD.zip)
+
+
+
