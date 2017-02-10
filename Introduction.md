@@ -17,11 +17,11 @@ Pip is probably the easiest way to install packages Once you install Python, you
 In order to get the Matplotlib, you should first head to Matplotlib.org and download the version that matches your version of Python.
 Once you have Matplotlib installed, be sure to open up a terminal or a script, type:
 
-
-`from matplotlib import pyplot as plt`
-`plt.plot([1,2,3],[4,5,1])`
-`plt.show()`
-
+```python
+from matplotlib import pyplot as plt`
+plt.plot([1,2,3],[4,5,1])`
+plt.show()
+```
 Thi is a basic code to generating one of the most simple graphs that we can, it will take us only 3 lines.
 
 Now let's go with our forex dataset .
