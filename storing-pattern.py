@@ -7,6 +7,7 @@ import matplotlib.ticker as mticker
 import matplotlib.dates as mdates
 from matplotlib.dates import bytespdate2num
 import numpy as np
+import time
 from matplotlib import style
 style.use('ggplot')
 (date, bid, ask) = np.loadtxt('GBPUSD1d.txt', unpack=True, delimiter=','
@@ -93,11 +94,10 @@ def patternStorage():
         # so like, performanceAr.index(12341)
         patternAr.append(pattern)
         performanceAr.append(futureOutcome)
-
         y+=1
         endTime = time.time()
-        print len(patternAr)
-        print len(performanceAr)
+        print(len(patternAr))
+        print(len(performanceAr))
         print('Pattern storing took:', endTime-startTime)
 
 
