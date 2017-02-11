@@ -3,6 +3,7 @@
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
+import matplotlib.dates as mdates
 from matplotlib.dates import bytespdate2num
 import numpy as np
 from matplotlib import style
@@ -29,5 +30,3 @@ def graphRawFX():
 
 
 graphRawFX()
-
-			
